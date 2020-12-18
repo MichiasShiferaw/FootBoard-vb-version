@@ -23,3 +23,7 @@ Private Sub btnOperate_Click(ByVal sender As System.Object, ByVal e As System.Ev
         If length <= 0.0 OrElse width <= 0 Then
 
 
+            'If the if statement is true then exit the program
+            MsgBox("Invalid input! ")
+            Me.Close()
+        End If
