@@ -17,4 +17,9 @@ Private Sub btnOperate_Click(ByVal sender As System.Object, ByVal e As System.Ev
 
         width = InputBox("Enter the width of the board foot (inches):")
 
+        height = 144 / (width * length)
+
+        'This insures that the length and width are not negative
+        If length <= 0.0 OrElse width <= 0 Then
+
 
