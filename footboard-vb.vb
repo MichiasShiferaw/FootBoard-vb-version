@@ -27,3 +27,8 @@ Private Sub btnOperate_Click(ByVal sender As System.Object, ByVal e As System.Ev
             MsgBox("Invalid input! ")
             Me.Close()
         End If
+
+        MsgBox("The final dimension is " & height & " inches.")
+
+End Sub
+End Class
